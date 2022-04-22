@@ -40,6 +40,7 @@ body {
     padding: 10px 16px;
     list-style-type:none;
     background-color: #2a607c;
+    display: flex;
 }
 
 ul.breadcrumb.li {
