@@ -46,7 +46,6 @@ ul.breadcrumb {
 ul.breadcrumb.li {
     display: inline-block;
     font-size: 18px;
-    float: right;
     margin-left: 25px;
 }
 
