@@ -24,10 +24,8 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-.header h1 .seo {
     color: #d9dcd6;
+
 }
 
 .header div {
@@ -38,19 +36,19 @@ body {
     font-size: 20px;
 }
 
-ul.breadcrumb {
+.breadcrumb ul {
     padding: 10px 16px;
     list-style-type:none;
     background-color: #2a607c;
 }
 
 ul.breadcrumb.li {
-    display: inline-block;
+    display: flex;
     font-size: 18px;
     margin-left: 25px;
 }
 
-ul.breadcrumb li+li:before {
+.breadcrumb li::before {
     padding: 8px;
     content: "";
 }
@@ -67,6 +65,7 @@ p {
 .float-left {
     float: left;
     margin-right: 25px;
+    max-height: 200px;
 }
 
 .float-right {
@@ -139,17 +138,14 @@ p {
     max-width: 150px;
 }
 
-.sidebar {
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #2589bd;
-    overflow-x: hidden;
-    padding-top: 16px;
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
     float: right;
+    font-style: italic;
+    background-color: #2589bd;
+    display: block;
 }
 
 
@@ -178,10 +174,6 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
 }
 
 .online-reputation-management img {
