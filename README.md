@@ -5,9 +5,9 @@
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
 - What was your motivation?
-    My motivation was to build a site that would allow me to practice using basic and advanced concepts from HTML and CSS, as well as to create a site with code that could be repurposed for similar websites.
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-    To learn how to create a site that is practical for users.
+    Refactoring the starter code to meet web accessibility standards and to follow the Scout Rule (leaving the code a little clear than I found it), through integrating semantic HTML and simplified CSS rules.
+- Why did you build this project? 
+    I built this project for a marketing agency to create a codebased that follows accessibility standards so that the agency's site is optimized for search engines.
 - What problem does it solve?
     The site makes it easy for users to find information and to sign up to receive with a trainer.
 - What did you learn?
