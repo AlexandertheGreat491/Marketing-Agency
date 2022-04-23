@@ -12,19 +12,11 @@ Provide a short description explaining the what, why, and how of your project. U
     The site allows the Horisean marketing agency to advertise their services and makes gaining information about the agency's services accessible to potentional customers.
 - What did you learn?
 I learned that it is imperative to understand how to place semantic HTML elements, simplify the classes and ids in my HTML, and ensure that the CSS rules are consolidated and target the correct elements, classes, and ids. I learned that properly distinguishing when to use <article>, <section>, and <div> makes HTML more meaningful to a developer and makes it easier to simplify classes and CSS rules. Also, I learned that commenting on my code is very helpful for visualizing how my code is organized.
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
+To have access to this repository clone this project to your local machine.
+    
 ## Usage
 
 Provide instructions and examples for use. Include screenshots as needed.
@@ -39,7 +31,7 @@ The project can be used through accessing the deployed URL and/or through access
 
 Collaborators:
    
-https://github.com/coding-boot-camp/urban-octo-telegram
+[Alexander Van Dyke](https://github.com/AlexandertheGreat491)
 
 Tutorials used:
     
