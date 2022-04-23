@@ -8,82 +8,37 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
-    padding: 15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+header {
+    padding: 20 px;
+    font-family: 'Trebuchet MS', 'Lucinda Sand Unicode', 'Lucia Grande', 'Lucinda Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-    background-image: no-repeat;
+    
 }
 
-.header h1 {
-    float: left;
-    justify-content:left;
+header h1 {
+    display: inline-block;
     font-size: 48px;
-    color: #d9dcd6;
-    background-color: #2a607c;
-    position: relative;
-    padding-top: 10px;
-    padding-bottom: 47px;
-    padding-left: 20px;
-    margin-bottom: 40px;
-    top: -20px;
-    left: -15px;
-    width: 33%;
-    justify-items: end;
-    flex-direction: row;
-
 }
-/*Refactor padding h1 heading*/
-.header div {
+
+header nav {
     padding-top: 15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gil Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    background-image: url ("images/digital-marketing-meeting.jpg");
 }
 
-.breadcrumb {
-    float: left;
+header nav ul {
     list-style-type: none;
-    background-color: #2a607c;
-    display: inline-flex;
-    justify-content: space-evenly;
-    position: absolute;
-    width: 66.5%;
-    padding-top: 15px;
-    padding-bottom: 54px;
-    margin-bottom: 40px;
-    top: -2px;
-    justify-items: end;
-    flex-direction: row;
 }
-/*Refactor padding breadcrumb*/
-.breadcrumb li {
-    display: flex;
-    font-size: 18px;
+
+header nav ul li{
+    display: inline-block;
     margin-left: 25px;
-    float: right;
-    justify-items: right;
-    margin-right: 25px;
-    max-height: 200px;
 }
-
-.breadcrumb li+li:before {
-    padding: 8px;
-    content: "";
-}
-
-.breadcrumb a {
-    float: right;
-    position: relative;
-    color:#d9dcd6;
-}
-
+    
 a {
     color: #ffffff;
     text-decoration: none;
@@ -186,9 +141,6 @@ aside {
     background-color: #2589bd;
     display: block;
 }
-
-
-
 
 .online-reputation-management {
     margin-bottom: 20px;
