@@ -9,49 +9,79 @@ body {
 }
 
 .header {
-    padding: 20px;
+    padding: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("./Develop/images/digital-marketing-meeting.jpg");
+    background-image: url("images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    background-image: no-repeat;
 }
 
 .header h1 {
-    display: inline-block;
+    float: left;
+    justify-content:left;
     font-size: 48px;
     color: #d9dcd6;
+    background-color: #2a607c;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 47px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+    top: -20px;
+    left: -15px;
+    width: 33%;
+    justify-items: end;
+    flex-direction: row;
 
 }
-
+/*Refactor padding h1 heading*/
 .header div {
     padding-top: 15px;
-    margin-right: 20px;
-    float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
-.breadcrumb ul {
-    padding: 10px 16px;
-    list-style-type:none;
+.breadcrumb {
+    float: left;
+    list-style-type: none;
     background-color: #2a607c;
-    display: flex;
+    display: inline-flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 66.5%;
+    padding-top: 15px;
+    padding-bottom: 54px;
+    margin-bottom: 40px;
+    top: -2px;
+    justify-items: end;
+    flex-direction: row;
 }
-
-ul.breadcrumb.li {
+/*Refactor padding breadcrumb*/
+.breadcrumb li {
     display: flex;
     font-size: 18px;
     margin-left: 25px;
+    float: right;
+    justify-items: right;
+    margin-right: 25px;
+    max-height: 200px;
 }
 
-.breadcrumb li::before {
+.breadcrumb li+li:before {
     padding: 8px;
     content: "";
+}
+
+.breadcrumb a {
+    float: right;
+    position: relative;
+    color:#d9dcd6;
 }
 
 a {
@@ -63,15 +93,23 @@ p {
     font-size: 16px;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-    max-height: 200px;
-}
-
 .float-right {
     float: right;
     margin-left: 25px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
 .content {
@@ -150,14 +188,7 @@ aside {
 }
 
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
+
 
 .online-reputation-management {
     margin-bottom: 20px;
@@ -179,6 +210,10 @@ aside {
 
 .online-reputation-management img {
     max-height: 200px;
+}
+
+.search-engine-optimization img {
+    max-height: 150px;
 }
 
 .social-media-marketing img {
