@@ -1,17 +1,17 @@
-# <Module-1-Challenge>
+# <Horisean Marketing Agency>
 
 ## Description
 
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
-- What was your motivation?
+- What was my motivation?
     Refactoring the starter code to meet web accessibility standards and to follow the Scout Rule (leaving the code a little clear than I found it), through integrating semantic HTML and simplified CSS rules.
-- Why did you build this project? 
+- Why did I build this project? 
     I built this project for a marketing agency to create a codebased that follows accessibility standards so that the agency's site is optimized for search engines.
 - What problem does it solve?
-    The site makes it easy for users to find information and to sign up to receive with a trainer.
+    The site allows the Horisean marketing agency to advertise their services and makes gaining information about the agency's services accessible to potentional customers.
 - What did you learn?
-
+I learned that it is imperative to understand how to place semantic HTML elements, simplify the classes and ids in my HTML, and ensure that the CSS rules are consolidated and target the correct elements, classes, and ids. I learned that properly distinguishing when to use <article>, <section>, and <div> makes HTML more meaningful to a developer and makes it easier to simplify classes and CSS rules. Also, I learned that commenting on my code is very helpful for visualizing how my code is organized.
 ## Table of Contents (Optional)
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
@@ -29,17 +29,17 @@ What are the steps required to install your project? Provide a step-by-step desc
 
 Provide instructions and examples for use. Include screenshots as needed.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+The project can be used through accessing the deployed URL and/or through accessing the public GitHub repository for this project.
+    
+    Deployed URL:
+    
+    public GitHub repository URL: 
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+Collaborators:
+   
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 
 If you followed tutorials, include links to those here as well.
 
