@@ -24,6 +24,7 @@ Provide instructions and examples for use. Include screenshots as needed.
 The project can be used through accessing the deployed URL and/or through accessing the public GitHub repository for this project.
     
     Deployed URL: https://alexanderthegreat491.github.io/Module-1-Challenge/
+    [Deployed URL] (https://alexanderthegreat491.github.io/Module-1-Challenge/)
     
     public GitHub repository URL: https://github.com/AlexandertheGreat491/Module-1-Challenge
 
