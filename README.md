@@ -11,7 +11,7 @@ Provide a short description explaining the what, why, and how of your project. U
 - What problem does it solve?
     The site allows the Horisean marketing agency to advertise their services and makes gaining information about the agency's services accessible to potentional customers.
 - What did you learn?
-I learned that it is imperative to understand how to place semantic HTML elements, simplify the classes and ids in my HTML, and ensure that the CSS rules are consolidated and target the correct elements, classes, and ids. I learned that properly distinguishing when to use <article>, <section>, and <div> makes HTML more meaningful to a developer and makes it easier to simplify classes and CSS rules. Also, I learned that commenting on my code is very helpful for visualizing how my code is organized.
+I learned that it is imperative to understand how to place semantic HTML elements, simplify the classes and ids in my HTML, and ensure that the CSS rules are consolidated and target the correct elements, classes, and ids. I learned that properly distinguishing when to use article, section, and div tags to better utilize semantic HTML and when to simplify classes and CSS rules. Also, I learned that commenting on my code is very helpful for visualizing how my code is organized.
 
 ## Installation
 
