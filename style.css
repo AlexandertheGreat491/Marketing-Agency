@@ -1,4 +1,5 @@
 /*Universal selector style*/
+/*Style applies to the entire site.*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -9,7 +10,9 @@
 body {
     background-color: #d9dcd6;
 }
-/*Header and nav styles start*/
+
+/*Header styles start*/
+
 header {
     padding: 20 px;
     font-family: 'Trebuchet MS', 'Lucinda Sand Unicode', 'Lucia Grande', 'Lucinda Sans', Arial, sans-serif;
@@ -23,6 +26,9 @@ header h1 {
     display: inline-block;
     font-size: 48px;
 }
+/*Header styles end*/
+
+/*Navigation styles start*/
 
 header nav {
     padding-top: 15px;
@@ -40,8 +46,11 @@ header nav ul li{
     display: inline-block;
     margin-left: 25px;
 }
-/*Header and nav styles end*/
+
+/*Navigation styles end*/
+
 /*Hero style*/
+
 .hero {
     height: 800px;
     width: 100%;
@@ -50,16 +59,22 @@ header nav ul li{
     background-size: cover;
     background-position: center;
 }
+
 /* <a> Element style*/
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
+
 /*<p> element style*/
+
 p {
     font-size: 16px;
 }
-/*Utility class styles*/
+
+/*Float styles*/
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -78,6 +93,7 @@ p {
 }
 
 /*Services article styles start*/
+
 .services {
     margin-bottom: 20px;
     padding: 50px;
@@ -86,6 +102,8 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+
+/*<article> elements styles*/
 
 .online-reputation-management img {
     max-height: 200px;
@@ -113,9 +131,11 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
 /*Services article styles end*/
 
-/*Benefits section styles start*/
+/*Benefits class styles start*/
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -141,8 +161,10 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
 /* Benefits section styles end */
 
+/*footer styles start*/
 
 footer {
     padding: 30px;
@@ -154,3 +176,5 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+
+/*footer styles end*/
