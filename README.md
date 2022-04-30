@@ -13,7 +13,7 @@ Provide a short description explaining the what, why, and how of your project. U
 - What did you learn?
 I learned that it is imperative to understand how to place semantic HTML elements, simplify the classes and ids in my HTML, and ensure that the CSS rules are consolidated and target the correct elements, classes, and ids. I learned that properly distinguishing when to use article, section, and div tags to better utilize semantic HTML and when to simplify classes and CSS rules. Also, I learned that commenting on my code is very helpful for visualizing how my code is organized.
     
-  Paths to screenshots of project:  
+  
    ![screenshot of deployed application](images/Screenshot.jpg)
 
 ## Installation
