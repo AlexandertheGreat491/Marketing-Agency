@@ -27,7 +27,7 @@ The project can be used through accessing the deployed URL and/or through access
     
 [Deployed URL:](https://alexanderthegreat491.github.io/Marketing-Agency/)
     
-[public GitHub repository URL:](https://github.com/AlexandertheGreat491/Module-1-Challenge)
+[public GitHub repository URL:](https://github.com/AlexandertheGreat491/Marketing-Agency)
 
 ## Credits
 
