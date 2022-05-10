@@ -7,7 +7,7 @@ Provide a short description explaining the what, why, and how of your project. U
 - What was my motivation?
     Refactoring the starter code to meet web accessibility standards and to follow the Scout Rule (leaving the code a little clear than I found it), through integrating semantic HTML and simplified CSS rules.
 - Why did I build this project? 
-    I built this project for a marketing agency to create a codebased that follows accessibility standards so that the agency's site is optimized for search engines.
+    I built this project for a marketing agency to create a codebase that follows accessibility standards so that the agency's site is optimized for search engines.
 - What problem does it solve?
     The site allows the Horisean marketing agency to advertise their services and makes gaining information about the agency's services accessible to potentional customers.
 - What did you learn?
